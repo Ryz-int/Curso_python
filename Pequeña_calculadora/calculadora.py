@@ -24,19 +24,5 @@ while True:
       if opcion == 5:
           print("Gracias por usar mi programa")
           break
-      else:
-           valor1 = float(input("Ingrese el primer valor: "))
-           valor2 = float(input("Ingrese el segundo valor: "))
-      if opcion == 1:
-           print(sumar(valor1, valor2))
-
-      elif opcion == 2:
-           print(restar(valor1, valor2))
-
-      elif opcion == 3:
-           print(multiplicar(valor1, valor2))
-      elif opcion == 4:
-           print(dividir(valor1,valor2))
-
-      else:
-           print("Opcion invalida") 
+      elif opcion >=1 and opcion <=4:
+           
